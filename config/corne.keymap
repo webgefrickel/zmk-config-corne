@@ -78,9 +78,9 @@
         Char {
             display-name = "Char";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp F6         &kp F7             &kp F8                 &kp F9             &kp F10      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans             &trans                 &trans             &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RA(MINUS)  &kp RA(RS(MINUS))  &kp RA(RS(BACKSLASH))  &kp RA(BACKSLASH)  &bootloader  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans             &trans                 &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans             &trans                 &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RA(MINUS)  &kp RA(RS(MINUS))  &kp RA(RS(BACKSLASH))  &kp RA(BACKSLASH)  &trans  &trans
                         &trans  &trans  &trans    &trans         &trans             &trans
             >;
         };
