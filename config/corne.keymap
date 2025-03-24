@@ -78,7 +78,7 @@
         Char {
             display-name = "Char";
             bindings = <
-&trans  &trans     &trans     &trans     &kp RA(R)      &kp RA(NUMBER_2)    &kp RA(RS(NUMBER_2))  &trans             &trans                 &trans                    &kp RA(NUMBER_6)  &trans
+&trans  &kp A      &trans     &trans     &kp RA(R)      &kp RA(NUMBER_2)    &kp RA(RS(NUMBER_2))  &trans             &trans                 &trans                    &kp RA(NUMBER_6)  &trans
 &trans  &kp RA(U)  &kp RA(S)  &kp RA(E)  &kp RA(GRAVE)  &kp RA(I)           &trans                &trans             &kp RA(RS(W))          &kp RA(RS(LEFT_BRACKET))  &kp RA(SEMI)      &trans
 &trans  &trans     &kp RA(N)  &kp RA(C)  &trans         &trans              &kp RA(MINUS)         &kp RA(RS(MINUS))  &kp RA(RS(BACKSLASH))  &kp RA(BACKSLASH)         &kp RS(RA(FSLH))  &trans
                               &trans     &trans         &trans              &trans                &trans             &trans
@@ -89,7 +89,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        l3 {
+        layer3 {
             if-layers = <1 2>;
             then-layer = <3>;
         };
