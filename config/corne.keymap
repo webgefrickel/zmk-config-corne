@@ -45,7 +45,7 @@
 &kp TAB           &kp Q  &kp W  &kp E                &kp R             &kp T           &kp Y        &kp U                    &kp I                             &kp O    &kp P     &kp MINUS
 &mt LCTRL ESCAPE  &kp A  &kp S  &kp D                &kp F             &kp G           &kp H        &kp J                    &kp K                             &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z  &kp X  &kp C                &kp V             &kp B           &kp N        &kp M                    &kp COMMA                         &kp DOT  &kp FSLH  &kp RSHFT
-                                &mt LEFT_ALT ESCAPE  &mt LEFT_GUI TAB  &lt 1 RETURN    &lt 2 SPACE  &mt RIGHT_GUI BACKSPACE  &mt LS(LC(LG(RIGHT_ALT))) ESCAPE
+                                &mt LEFT_ALT ESCAPE  &mt LEFT_GUI TAB  &lt 2 RETURN    &lt 1 SPACE  &mt RIGHT_GUI BACKSPACE  &mt LS(LC(LG(RIGHT_ALT))) ESCAPE
             >;
         };
 
@@ -76,20 +76,20 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bootloader     &kp F1  &kp F2   &kp F3   &kp F4   &kp C_BRIGHTNESS_INC    &kp PAGE_UP     &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &bt BT_SEL 0  &bt BT_CLR
-&studio_unlock  &kp F5  &kp F6   &kp F7   &kp F8   &kp C_BRIGHTNESS_DEC    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT_ARROW  &bt BT_SEL 1  &trans
-&trans          &kp F9  &kp F10  &kp F11  &kp F12  &trans                  &kp PAGE_DOWN   &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &bt BT_SEL 2  &trans
-                                 &trans   &trans   &trans                  &trans          &trans            &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp C_BRIGHTNESS_INC    &kp PAGE_UP     &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &bt BT_SEL 0  &bt BT_CLR
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp C_BRIGHTNESS_DEC    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT_ARROW  &bt BT_SEL 1  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans                  &kp PAGE_DOWN   &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &bt BT_SEL 2  &trans
+                         &trans   &trans   &trans                  &trans          &trans            &trans
             >;
         };
 
         Char {
             display-name = "Char";
             bindings = <
-&trans  &trans     &trans     &trans     &kp RA(R)      &kp RA(NUMBER_2)    &kp RA(RS(NUMBER_2))  &trans             &trans                 &trans                    &kp RA(NUMBER_6)  &trans
-&trans  &kp RA(U)  &kp RA(S)  &kp RA(E)  &kp RA(GRAVE)  &kp RA(I)           &trans                &trans             &kp RA(RS(W))          &kp RA(RS(LEFT_BRACKET))  &kp RA(SEMI)      &trans
-&trans  &trans     &kp RA(N)  &kp RA(C)  &trans         &trans              &kp RA(MINUS)         &kp RA(RS(MINUS))  &kp RA(RS(BACKSLASH))  &kp RA(BACKSLASH)         &kp RS(RA(FSLH))  &trans
-                              &trans     &trans         &trans              &trans                &trans             &trans
+&bootloader  &trans     &trans     &trans     &kp RA(R)      &kp RA(NUMBER_2)    &kp RA(RS(NUMBER_2))  &trans             &trans                 &trans                    &kp RA(NUMBER_6)  &studio_unlock
+&trans       &kp RA(U)  &kp RA(S)  &kp RA(E)  &kp RA(GRAVE)  &kp RA(I)           &trans                &trans             &kp RA(RS(W))          &kp RA(RS(LEFT_BRACKET))  &kp RA(SEMI)      &trans
+&trans       &trans     &kp RA(N)  &kp RA(C)  &trans         &trans              &kp RA(MINUS)         &kp RA(RS(MINUS))  &kp RA(RS(BACKSLASH))  &kp RA(BACKSLASH)         &kp RS(RA(FSLH))  &trans
+                                   &trans     &trans         &trans              &trans                &trans             &trans
             >;
         };
     };
