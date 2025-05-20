@@ -20,15 +20,6 @@
 
     //
 
-    macros {
-        emdash: emdash {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "EMDASH";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
