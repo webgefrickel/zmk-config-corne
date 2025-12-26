@@ -9,14 +9,7 @@
 #define EXTRA 4
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        jkesc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     //
 
